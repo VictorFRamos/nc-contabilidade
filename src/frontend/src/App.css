@@ -4,8 +4,8 @@ body {
 }
 
 .header {
-  background: #004aad;
-  color: white;
+  background: white;
+    color: #004aad;
   padding: 15px;
   display: flex;
   justify-content: space-between;
@@ -13,7 +13,7 @@ body {
 }
 
 .header nav a {
-  color: white;
+  color: #004aad;
   margin: 0 10px;
   text-decoration: none;
 }
