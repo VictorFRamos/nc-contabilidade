@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background: #004aad;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.banner {
+  background: url("https://source.unsplash.com/1600x500/?business,office") center/cover;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.about, .services, .plans {
+  padding: 40px 20px;
+}
+
+.plan-list {
+  display: flex;
+  gap: 20px;
+}
+
+.plan {
+  border: 1px solid #ddd;
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+}
+
+.footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.login-page {
+  padding: 50px;
+  text-align: center;
+}
+
+.login-page form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+
+.login-page input {
+  margin: 10px 0;
+  padding: 10px;
+}
